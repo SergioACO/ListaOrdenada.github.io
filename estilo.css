@@ -1,0 +1,59 @@
+body{
+    background-color: beige;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    
+}
+
+#uno{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    border: 2px solid black;
+    background: #D3CCE3;
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+}
+
+#dos{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    border: 2px solid black;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    color: white;
+}
+
+
+.temaUno{
+    background: #D3CCE3;
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3);
+}
+
+.temaDos{
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    color: white;
+}
+
+
+.temaUno ol li {
+    color: black;
+}		
+.temaUno ol li:nth-child(odd) { 
+    color: black;
+    background-color: #0BD5F3;
+    margin-right: 1200px;
+}
+
+.temaDos ol li {
+    color: white;
+}
+
+.temaDos ol li:nth-child(even){
+    background-color: #31B228;
+    margin-right: 1200px;
+    color: white;
+}
